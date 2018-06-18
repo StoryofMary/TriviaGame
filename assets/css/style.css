@@ -1,0 +1,40 @@
+
+html {
+    height: 100%; 
+}
+
+body {
+
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-image: url("../images/beerpattern.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+h1 {
+
+    font-family: "Rye", cursive;
+    text-align: center;
+
+}
+
+button {
+
+    color: white;
+    background-color: #275f66;
+
+}
+
+.wall {
+    background-color:rgba(255, 255, 255, 0.90);
+    
+}
+
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
